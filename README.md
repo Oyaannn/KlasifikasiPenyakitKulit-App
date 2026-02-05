@@ -5,14 +5,15 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-ff4b4b)
 ![CNN](https://img.shields.io/badge/Method-CNN-green)
 
----
 
 ## Deskripsi Proyek
 Aplikasi ini berbasis **pengolahan citra digital** dan **deep learning** menggunakan metode **Convolutional Neural Network (CNN)** dengan teknik transfer learning untuk mengenali pola visual pada citra kulit. Proyek ini dikembangkan sebagai tugas akhir mata kuliah Pengolahan Citra Digital pada Program Studi Teknik Informatika.
 
-> ⚠️ **Catatan:** Aplikasi ini merupakan **sistem pendukung keputusan**, bukan pengganti diagnosis medis oleh dokter.
+> **Catatan:** Aplikasi ini merupakan sistem pendukung keputusan, bukan pengganti diagnosis medis oleh dokter.
 
----
+## Getting Access
+
+[![Getting Access](https://img.shields.io/badge/GETTING%20ACCESS-OPEN%20WEBSITE-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)](https://klasifikasipenyakitkulit.streamlit.app/)
 
 ## Metode yang Digunakan
 - Deep Learning
@@ -21,7 +22,6 @@ Aplikasi ini berbasis **pengolahan citra digital** dan **deep learning** menggun
 - Image Preprocessing & Data Augmentation
 - Explainable AI (Grad-CAM)
 
----
 
 ## Library & Tools
 
@@ -40,15 +40,6 @@ Aplikasi ini berbasis **pengolahan citra digital** dan **deep learning** menggun
 | `Pillow` | Manipulasi citra |
 | `Streamlit` | Web application |
 
----
-
-## Getting Started
-
-```bash
-python -m streamlit run app.py
-```
-
----
 
 ## Screenshot
 
@@ -71,4 +62,3 @@ python -m streamlit run app.py
   </tr>
 </table>
 </div>
-
